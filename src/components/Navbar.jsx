@@ -21,7 +21,6 @@ export const Navbar = ({ products }) => {
 };
 
 const NavList = ({ items }) => {
-    // console.log(items);
     return (
         <ul className="flex items-center justify-center">
             {items.map((item, index) => {
